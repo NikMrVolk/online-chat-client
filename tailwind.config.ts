@@ -9,6 +9,9 @@ const config: Config = {
     ],
     theme: {
         extend: {
+            colors: {
+                blue: '#4277E2',
+            },
             gridTemplateColumns: {
                 rootTemplate: 'minmax(6rem, 1fr) 14fr',
             },

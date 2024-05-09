@@ -1,6 +1,6 @@
 import { DoorOpenIcon, MoonIcon, SunIcon } from 'lucide-react'
 
-import { Nav } from './components'
+import { Nav } from './components/nav'
 
 export const Header = () => (
     <header className="flex min-h-svh flex-col items-center justify-between pb-4 pt-8">
