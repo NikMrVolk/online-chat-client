@@ -1,17 +1,19 @@
 import { HomeIcon, MailIcon, SettingsIcon } from 'lucide-react'
 
+import { ROUTES } from '@/utils/constants'
+
 const navElements = [
     {
         component: HomeIcon,
-        route: '/',
+        route: ROUTES.HOME,
     },
     {
         component: MailIcon,
-        route: '/socials',
+        route: ROUTES.SOCIALS,
     },
     {
         component: SettingsIcon,
-        route: '/settings',
+        route: ROUTES.SETTINGS,
     },
 ]
 
